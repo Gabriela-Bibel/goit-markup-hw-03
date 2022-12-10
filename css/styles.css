@@ -4,12 +4,59 @@
   --color-grey: #757575;
   --color-white: #ffffff;
   --color-black: #212121;
+  --color-border: #ececec;
+  --color-teamsectionbackground: #F5F4FA;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-grey);
   background-color: var(--color-white);
+}
+
+.header-nav {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  outline: 1px dashed red;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-nav-flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.section {
+  padding: 94px auto;
+}
+
+.services {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-bgcolour {
+  background-color: var(--color-teamsectionbackground);
+}
+
+.team {
+  display: flex;
 }
 
 .link {
@@ -158,3 +205,4 @@ body {
   font-weight: 400;
   line-height: 1.875;
 }
+
