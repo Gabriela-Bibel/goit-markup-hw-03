@@ -15,13 +15,16 @@ body {
 }
 
 .header-nav {
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.section {
+  padding: 94px auto;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  outline: 1px dashed red;
 }
 
 .nav-flex {
@@ -41,22 +44,66 @@ body {
   gap: 32px;
 }
 
-.section {
-  padding: 94px auto;
+.portfolio-nav-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px auto;                 
 }
 
+.description-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 140px auto;
+}
+  
 .services {
   display: flex;
-  gap: 20px;
-  padding: 20px;
+  justify-content: space-between;
+  margin: 140px auto;
 }
 
 .team-bgcolour {
   background-color: var(--color-teamsectionbackground);
+  padding: 140px 0px;
 }
 
-.team {
+.tile-flex {
   display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-flex {
+  flex-wrap: wrap;
+  padding: 10px 0px;
+  margin: 65px auto;
+}
+
+.tile {
+  background: var(--color-white);
+  padding: 5px;
+  box-shadow: 0 0 2px var(--color-grey);
+  border-radius: 0 0 mixed;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.portfolio-tile {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 24.43px;
+  padding-bottom: 20px;
+  border-style: none solid solid solid;
+  border-width: 2px;
+  border-color: var(--color-teamsectionbackground);
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 0px;
 }
 
 .link {
@@ -139,11 +186,22 @@ body {
   line-height: auto;
 }
 
+.order-button {
+  max-width: 199px;
+  height: 50px;
+  padding: 0 41px;
+  border-radius: 4px;
+}
+
 .button {
   color: var(--color-black);
-  background-color: var(--color-white);
+  background-color: var(--color-teamsectionbackground);
+  width: 94.76px;
+  height: 37.97px;
   border: none;
+  border-radius: 4px;
   padding: 5px;
+  margin: 0 4px;
 }
 
 .active-button,
@@ -153,7 +211,6 @@ body {
   background-color: var(--color-blue);
   border: none;
   cursor: pointer;
-  padding: 5px;
 }
 
 .list {
@@ -165,7 +222,6 @@ body {
   font-size: 0.875rem;
   font-style: normal;
   background-color: var(--color-navy);
-  padding: 10;
 }
 
 .blue-web {
