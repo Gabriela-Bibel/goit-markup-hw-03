@@ -14,6 +14,20 @@ body {
   background-color: var(--color-white);
 }
 
+* {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ ul {
+   list-style: none;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: inherit;
+ } 
+
 .header-nav {
   border-bottom: 2px solid var(--color-border);
 }
@@ -83,6 +97,12 @@ body {
   padding: 10px 0px;
   margin: 65px auto;
 }
+
+.portfolio-img {
+   width: 370px;
+   height: 294px;
+   vertical-align: middle; 
+ }
 
 .tile {
   background: var(--color-white);
