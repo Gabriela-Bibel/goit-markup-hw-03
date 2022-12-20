@@ -85,7 +85,7 @@ body {
 
 .team-bgcolour {
   background-color: var(--color-teamsectionbackground);
-  padding: 140px 0px;
+  padding: 90px 0px;
 }
 
 .tile-flex {
@@ -185,6 +185,7 @@ body {
 .catchphrase {
   font-size: 2.75rem;
   color: var(--color-white);
+  margin-bottom: 24px;
 }
 
 .headline {
@@ -216,7 +217,7 @@ body {
 .order-button {
   max-width: 199px;
   height: 50px;
-  padding: 0 41px;
+  padding: 10px 41px;
   border-radius: 4px;
 }
 
